@@ -1,0 +1,16 @@
+{
+  "name": "remotis",
+  "version": "1.0.0",
+  "description": "Reverse SSH Tunneling Script",
+  "main": "src/connect.mjs",
+  "repository": "https://github.com/dominickbrasileiro/remotis.git",
+  "author": "Dominick Brasileiro",
+  "license": "MIT",
+  "scripts": {
+    "start": "bash -c \"source .env && zx src/connect.mjs\""
+  },
+  "dependencies": {
+    "dotenv": "^9.0.1",
+    "zx": "^1.2.2"
+  }
+}
